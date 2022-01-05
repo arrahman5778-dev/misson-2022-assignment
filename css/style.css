@@ -1,0 +1,52 @@
+
+#hero-part {
+  width: 1170px;
+  margin: 0 auto;
+  display: flex;
+}
+.hero-part_text{
+  padding-top: 80px;
+  padding-right: 80px;
+}
+.hero-part_text h1 {
+  color: #292929;
+  font-size: 60px;
+  font-weight: 400;
+  font-family: 'Yeseva One', cursive;
+  margin: 0;
+}
+.hero-part_text h2 {
+  color: #df6e05;
+  font-size: 60px;
+  font-weight: 400;
+  font-family: 'Yeseva One', cursive;
+  margin: 0;
+}
+.hero-part_text p {
+  color: #4e2c2c;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  padding-bottom: 40px;
+}
+.button{
+  color: #ffffff;
+  font-style: 16px;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  padding: 12px 38px;
+  background-color: #f12626;
+  border-radius: 5px;
+  text-decoration: none;
+  
+}
+.hero-part_text h3 {
+  color: #181818;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  padding-top: 30px;
+}
+.hero-part_img img{
+  width: 80%;
+}
