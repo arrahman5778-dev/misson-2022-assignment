@@ -5,7 +5,7 @@
 }
 
 .hero-part {
-  padding-top: 80px;
+  padding: 62px 0;
   padding-right: 80px;
   width: 50%;
 }
@@ -39,14 +39,13 @@
 
 .button {
   color: #ffffff;
-  font-style: 16px;
+  font-size: 16px;
   font-weight: 500;
   font-family: 'Roboto', sans-serif;
   padding: 12px 38px;
-  background-color: #f12626;
+  background-color: #d86335;
   border-radius: 5px;
   text-decoration: none;
-
 }
 
 .hero-part h3 {
@@ -61,15 +60,17 @@
   width: 120%;
 }
 
-.misson-center-text h2 {
+.header-text h2 {
   text-align: center;
   color: #272727;
   font-size: 48px;
   font-weight: 700;
   font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding-bottom: 30px;
 }
 
-.misson-center-text span {
+.header-text span {
   color: #f12626;
 }
 
@@ -103,6 +104,10 @@
 
 #develop-section {
   padding-top: 86px;
+  background-image: url(../images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-position: left 60%;
+  background-size: 200px 200px;
 }
 
 .develop-img {
@@ -134,54 +139,126 @@
   padding-bottom: 20px;
 }
 
-#community {
-  padding-top: 100px;
-}
-.community-text{
-  width: 55%;
-  margin-right: 60px;
-}
-.community-img {
-  width: 40%;
+#know-about {
+  padding: 60px 0;
   background-image: url(../images/shapes/shape-1.png);
   background-repeat: no-repeat;
+  background-position: right 100%;
+  background-size: 250px 250px;
 }
-.community-text h2 {
+
+.know-about-text {
+  width: 55%;
+  margin-right: 60px;
+  padding-bottom: 50px;
+}
+
+.know-about-img {
+  width: 40%;
+}
+
+.know-about-text h2 {
   color: #303030;
   font-style: 36px;
   font-weight: 700;
   font-family: 'Poppins', sans-serif;
   margin: 0;
 }
-.community-text p {
+
+.know-about-text h2 span {
+  color: #df6e05;
+}
+
+.know-about-text p {
   color: #303030;
-  font-style: 16px;
+  font-size: 18px;
   font-weight: 400;
   font-family: 'Poppins', sans-serif;
   padding-bottom: 20px;
 }
-.community-img img{
+
+.know-about-img img {
   width: 80%;
 }
-footer{
+
+.contact-info {
+  width: 50%;
+  margin-right: 30px;
+}
+
+.contact-info h2 {
+  color: #945112;
+  font-size: 36px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.contact-info h3 {
+  color: #ca1515;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  padding-bottom: 5px;
+  margin: 0;
+}
+
+.contact-info p {
+  color: #050505;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  padding-bottom: 10px;
+  margin: 0;
+}
+
+.contact-massege {
+  width: 50%;
+}
+
+.contact-massege input {
+  height: 35px;
+  width: 500px;
+  margin-bottom: 25px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(253, 231, 216);
+}
+
+::placeholder {
+  color: #0f0f0f;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  padding-left: 10px;
+}
+
+.submit {
+  padding: 12px 218px;
+  margin-top: 100px;
+  font-size: 22px;
+}
+
+footer {
   margin-top: 100px;
   text-align: center;
   background-color: #201f1f;
 }
-footer h2{
+
+footer h2 {
   color: #ffffff;
   font-size: 36px;
   font-weight: 400;
   font-family: 'Lobster', cursive;
   margin: 0;
   padding: 35px 0 10px 0;
-  
 }
-footer h2 span{
-  
-  color: #b11e04;
+
+footer h2 span {
+  color: #df6e05;
 }
-footer h3{
+
+footer h3 {
   color: #cbd3eb;
   font-size: 14px;
   font-weight: 400;
