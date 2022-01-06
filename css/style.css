@@ -16,17 +16,18 @@
   font-weight: 400;
   font-family: 'Yeseva One', cursive;
   margin: 0;
-  border-left: 2px solid #f12626;
-  nav-left: 40px;
+  border-left: 4px solid #4dbdcc;
+  padding-left: 10px;
 }
 
 .hero-part h2 {
-  color: #df6e05;
+  color: #4dbdcc;
   font-size: 60px;
   font-weight: 400;
   font-family: 'Yeseva One', cursive;
   margin: 0;
-  border-left: 2px solid #f12626;
+  border-left: 4px solid #4dbdcc;
+  padding-left: 10px;
 }
 
 .hero-part p {
@@ -43,7 +44,7 @@
   font-weight: 500;
   font-family: 'Roboto', sans-serif;
   padding: 12px 38px;
-  background-color: #d86335;
+  background-color: #1d8675;
   border-radius: 5px;
   text-decoration: none;
 }
@@ -71,7 +72,7 @@
 }
 
 .header-text span {
-  color: #f12626;
+  color: #4dbdcc;
 }
 
 .column {
@@ -166,7 +167,7 @@
 }
 
 .know-about-text h2 span {
-  color: #df6e05;
+  color: #4dbdcc;
 }
 
 .know-about-text p {
@@ -187,7 +188,7 @@
 }
 
 .contact-info h2 {
-  color: #945112;
+  color: #44d3e6;
   font-size: 36px;
   font-weight: 700;
   font-family: 'Poppins', sans-serif;
@@ -196,8 +197,8 @@
 }
 
 .contact-info h3 {
-  color: #ca1515;
-  font-size: 20px;
+  color: #1278a7;
+  font-size: 22px;
   font-weight: 700;
   font-family: 'Poppins', sans-serif;
   padding-bottom: 5px;
@@ -223,7 +224,7 @@
   margin-bottom: 25px;
   border: none;
   border-radius: 5px;
-  background-color: rgb(253, 231, 216);
+  background-color: #3ea0ad33;
 }
 
 ::placeholder {
@@ -255,7 +256,7 @@ footer h2 {
 }
 
 footer h2 span {
-  color: #df6e05;
+  color: #1d8675;
 }
 
 footer h3 {
